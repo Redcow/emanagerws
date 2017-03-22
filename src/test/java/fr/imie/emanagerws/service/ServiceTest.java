@@ -58,7 +58,7 @@ public class ServiceTest {
 		
 		// assert it's null ( no more existing )
 		//assertNull(service.findContactById(1));
-		assertThat(service.findContactById(2)).isNull();
+		assertThat(service.findContactById(1)).isNull();
 	}
 	
 	@After
